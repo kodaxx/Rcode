@@ -2,7 +2,7 @@
 
 _Readable Gcode_
 
-Rcode is a (thus far incomplete) human readble layer on top of standard Gcode, written in Ruby. Programs are written using standard Rcode methods and the _converted_ to Gcode via the context menu. For those that manually write Gcode, this should be a simple and convenient way to generate those programs. All standard Ruby scripting is also supported, so one could build sub-programs by creating a Ruby method.
+Rcode is a (thus far incomplete) human readable layer on top of standard Gcode, written in Ruby. Programs are written using standard Rcode methods and the _converted_ to Gcode via the context menu. For those that manually write Gcode, this should be a simple and convenient way to generate those programs. All standard Ruby scripting is also supported, so one could build sub-programs by creating a Ruby method.
 
 # Basic Use
 
