@@ -80,7 +80,6 @@ All codes will have detailed docstrings and examples.
 The easiest method to install Rcode is with the installer located in the **dist** folder
 
 * ```Install Ruby (if you do not have it already)```
-* ```Add the .msi extension to the 'rcode' file in the dist folder (github not letting me upload)```
 * ```Run the rcode.msi program from the dist folder```
 
 # TODO
