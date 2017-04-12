@@ -8,8 +8,8 @@ Rcode is a (thus far incomplete) human readble layer on top of standard Gcode, w
 
 Use the Rcode methods to create your desired tool path.
 Then:
-> * _Save file as>filename.rb_ 
-> * _Right-click>Send To>Convert to Gcode_
+* ```Save file as>filename.rb``` 
+* ```Right-click>Send To>Convert to Gcode```
 
 _example:_
 ```ruby
@@ -55,33 +55,33 @@ stop
 
 All codes will have detailed docstrings and examples.
 #### Preparatory Codes
-```program(number)```
-```home```
-> * abs
-> * inc
-> * clear
-> * done
-> * coolant(state)
+* ```program(number)```
+* ```home```
+* ```abs```
+* ```inc```
+* ```clear```
+* ```done```
+* ```coolant(state)```
 
 #### Spindle/Speeds/Feeds
-> * tool(number)
-> * speed(rpm)
-> * stop
-> * feed(ipm)
+* ```tool(number)```
+* ```speed(rpm)```
+* ```stop```
+* ```feed(ipm)```
 
 #### Movement
-> * dwell(seconds)
-> * rapid(x:0, y:0, z:0)
-> * move(x:0, y:0, z:0)
-> * cut(z:0, f:0)
+* ```dwell(seconds)```
+* ```rapid(x:0, y:0, z:0)```
+* ```move(x:0, y:0, z:0)```
+* ```cut(z:0, f:0)```
 
 # Installation
 
 The easiest method to install Rcode is with the installer located in the **dist** folder
 
-> * Install Ruby (if you do not have it already)
-> * Add the .msi extension to the 'rcode' file in the **dist** folder (github not letting me upload)
-> * Run the rcode.msi program from the **dist** folder
+* ```Install Ruby (if you do not have it already)```
+* ```Add the .msi extension to the 'rcode' file in the dist folder (github not letting me upload)```
+* ```Run the rcode.msi program from the dist folder```
 
 # TODO
 
